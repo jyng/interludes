@@ -19,3 +19,8 @@ text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
 letter-spacing: 3px;
 
 }
+
+#subscription_message {
+   color: red;
+   margin-bottom: 15px;
+}
