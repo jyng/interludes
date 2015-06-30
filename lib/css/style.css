@@ -9,7 +9,6 @@ font-size: 9em;
 	-webkit-text-fill-color: transparent;
 text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
 
-
 }
 h1 {
 	letter-spacing: 3px;
@@ -17,4 +16,9 @@ h1 {
 
 h2 {
 	font-size: 2em;
+}
+
+#subscription_message {
+   color: red;
+   margin-bottom: 15px;
 }
