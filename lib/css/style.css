@@ -1,8 +1,12 @@
+body {
+font: 1.8em Merriweather, sans-serif;
+letter-spacing: 0.5px;
+line-height: 35px;
+min-width:200px;
+}
 
 h1, h2 {
-	font-family: Dosis-Bold;
-}
-h1, h2 {
+font-family: Dosis-Bold;
 font-size: 9em;
 	background: -webkit-linear-gradient(360deg, #414040,#F6F1F1);
 	-webkit-background-clip: text;
