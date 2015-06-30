@@ -25,3 +25,9 @@ h2 {
    color: red;
    margin-bottom: 15px;
 }
+
+/* Was trying to make the input form larger on large devices */
+#mc_email_input input {
+   /*text-align: center;*/
+   /*width: 300px;*/
+}
