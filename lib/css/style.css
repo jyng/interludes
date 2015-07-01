@@ -1,24 +1,29 @@
 body {
-font: 1.8em Merriweather, sans-serif;
-letter-spacing: 0.5px;
-line-height: 35px;
-min-width:200px;
+font: 2.5em Merriweather, sans-serif;
+
 }
 
-h1, h2 {
-font-family: Dosis-Bold;
-font-size: 9em;
-	background: -webkit-linear-gradient(360deg, #414040,#F6F1F1);
+h1 {
+font-family: Dosis, sans-serif;
+	background: -webkit-linear-gradient(left, #414040 20%, #E0E0E0 90%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
 
 }
 h1 {
+	font-size:10vw;
 	letter-spacing: 3px;
 }
 h2 {
-	font-size: 2em;
+	font-family: Dosis,sans-serif;
+	font-size: 5vmin;
+	color:#CBC6C6;
+}
+p {
+letter-spacing: 0.5px;
+line-height: 35px;
+min-width:200px;
 }
 
 #subscription_message {
