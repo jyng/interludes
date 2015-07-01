@@ -29,15 +29,15 @@ min-width:200px;
 
 #subscription_message {
    color: red;
-   margin-bottom: 15px;
+   margin-top: 15px;
 }
 
 /* Was trying to make the input form larger on large devices */
-#mc_email_input input {
-   /*text-align: center;*/
-   /*width: 300px;*/
+/*#mc_email_input input {
+   text-align: center;
+   width: 300px;
 }
-
+*/
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
