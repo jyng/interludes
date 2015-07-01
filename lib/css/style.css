@@ -27,21 +27,17 @@ p {
 letter-spacing: 0.5px;
 line-height: 30px;
 min-width:200px;
+
 padding-bottom: 40px;
 }
 
-.btn, .btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.btn-primary{
+.btn, .btn:active , .btn:focus{
    background-color: darkgrey;
    border-color: lightgrey;
 }
 .btn:hover {
    background-color: lightgrey;
    border-color: darkgrey;
-
-}
 
 #subscription_message {
    color: red;
