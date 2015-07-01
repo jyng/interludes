@@ -1,11 +1,12 @@
 body {
-font: 2.5em Merriweather, sans-serif;
+font: 1.8em Merriweather, sans-serif;
 }
 
 h1,h2 {
 font-family: Dosis, sans-serif;	
 }
 h1 {
+   font-size: 9em;
 	letter-spacing: 3px;
 	background: -webkit-linear-gradient(360deg, #414040 20%,#E0E0E0 90%);
 	-webkit-background-clip: text;
@@ -15,10 +16,10 @@ h1 {
 }
 h2 {
 	font-family: Dosis,sans-serif;
-	font-size: 5vmin;
+	/*font-size: 5vmin;*/
 	/*font-size: 5vmax;*/
 	color:#CBC6C6;
-	font-size: 2em; /*fallback*/
+	font-size: 2em;
 }
 p {
 letter-spacing: 0.5px;
@@ -50,7 +51,7 @@ min-width:200px;
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
    h1 {
-   font-size:3em;
+      font-size: 7em;
    }
 
    h2 {
@@ -72,10 +73,10 @@ min-width:200px;
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
    h1 {
-      font-size: 4.4em;
+      font-size: 4.2em;
    }
 
    h2 {
-      font-size: 1.20em;
+      font-size: 1.2em;
    }
 }
