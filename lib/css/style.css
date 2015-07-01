@@ -7,7 +7,6 @@ min-width:200px;
 
 h1, h2 {
 font-family: Dosis-Bold;
-font-size: 9em;
 	background: -webkit-linear-gradient(360deg, #414040,#F6F1F1);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -15,10 +14,13 @@ text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
 
 }
 h1 {
+   font-size: 9em; /*fallback*/
+
 	letter-spacing: 3px;
 }
 h2 {
-	font-size: 2em;
+	font-size: 2em; /*fallback*/
+   /*font-size: 5vmax;*/
 }
 
 #subscription_message {
@@ -30,4 +32,47 @@ h2 {
 #mc_email_input input {
    /*text-align: center;*/
    /*width: 300px;*/
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+   h1 {
+      font-size: 7em;
+   }
+
+   h2 {
+      font-size: 2em;
+   }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+   h1 {
+      font-size: 4.9em;
+   }
+
+   h2 {
+      font-size: 1.4em;
+   }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+   h1 {
+      font-size: 4.4em;
+   }
+
+   h2 {
+      font-size: 1.20em;
+   }
 }
