@@ -38,9 +38,9 @@ padding-bottom: 40px;
 .btn:hover {
    background-color: lightgrey;
    border-color: darkgrey;
-
+}
 #subscription_message {
-   color: red;
+   color:red;
    margin-top: 15px;
    margin-bottom:50px;
 }
