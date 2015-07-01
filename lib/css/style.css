@@ -25,6 +25,22 @@ p {
 letter-spacing: 0.5px;
 line-height: 35px;
 min-width:200px;
+<<<<<<< Updated upstream
+=======
+padding-bottom: 40px;
+}
+
+.btn, .btn-default:focus,
+.btn-default:active,
+.btn-default.active{
+   background-color: darkgrey;
+   border-color: lightgrey;
+}
+.btn:hover {
+   background-color: lightgrey;
+   border-color: darkgrey;
+
+>>>>>>> Stashed changes
 }
 
 #subscription_message {
