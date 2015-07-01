@@ -3,12 +3,13 @@ font: 1.8em Merriweather, sans-serif;
 }
 
 h1,h2 {
-font-family: Dosis, sans-serif;	
+font-family: Dosis, sans-serif;
+font-weight: 700;	
 }
 h1 {
-   font-size: 9em;
+   font-size: 6em;
 	letter-spacing: 3px;
-	background: -webkit-linear-gradient(360deg, #414040 10%,#989696,#E0E0E0 95%);
+	background: -webkit-linear-gradient(left, #414040 10%,#989696,#E0E0E0 95%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
@@ -19,17 +20,33 @@ h2 {
 	/*font-size: 5vmin;*/
 	/*font-size: 5vmax;*/
 	color:#CBC6C6;
-	font-size: 2em;
+	font-size: 2.5em;
+   padding-bottom: 50px;
 }
 p {
 letter-spacing: 0.5px;
-line-height: 35px;
+line-height: 30px;
 min-width:200px;
+padding-bottom: 40px;
+}
+
+.btn, .btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.btn-primary{
+   background-color: darkgrey;
+   border-color: lightgrey;
+}
+.btn:hover {
+   background-color: lightgrey;
+   border-color: darkgrey;
+
 }
 
 #subscription_message {
    color: red;
    margin-top: 15px;
+   margin-bottom:50px;
 }
 
 /* Was trying to make the input form larger on large devices */
@@ -51,22 +68,30 @@ min-width:200px;
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
    h1 {
-      font-size: 7em;
+      font-size: 6em;
+   
    }
-
    h2 {
-      font-size: 2em;
+      font-size:2.5em;
+
+   }
+   p {
+      min-width:600px;
    }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
    h1 {
-      font-size: 15vw;
+      font-size: 13vw;
    }
 
    h2 {
-      font-size: 1.4em;
+      font-size: 2em;
+   }
+
+   p {
+      line-height:25px;
    }
 }
 
@@ -77,6 +102,10 @@ min-width:200px;
    }
 
    h2 {
-      font-size: 1.2em;
+      font-size: 8vw;
+   }
+   p {
+      font-size:4vw;
+      line-height:23px;
    }
 }
