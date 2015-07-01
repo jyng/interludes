@@ -6,7 +6,7 @@ h1,h2 {
 font-family: Dosis, sans-serif;	
 }
 h1 {
-   font-size: 9em;
+   font-size: 10vw;
 	letter-spacing: 3px;
 	background: -webkit-linear-gradient(360deg, #414040 10%,#989696,#E0E0E0 95%);
 	-webkit-background-clip: text;
@@ -20,6 +20,7 @@ h2 {
 	/*font-size: 5vmax;*/
 	color:#CBC6C6;
 	font-size: 2em;
+   padding-bottom: 40px;
 }
 p {
 letter-spacing: 0.5px;
@@ -57,22 +58,10 @@ padding-bottom: 40px;
   background-color: darkgrey;
   border-color: lightgrey;
 }
-/*End Suggested Changes*/
-
-
-/*.btn-primary, .btn-primary:active, .btn:focus{
-   background-color: darkgrey;
-   border-color: lightgrey;
-}
-
-.btn:hover {
-   background-color: lightgrey;
-   border-color: darkgrey;
-}*/
-
 #subscription_message {
    color: red;
    margin-top: 15px;
+   margin-bottom:20px;
 }
 
 /* Was trying to make the input form larger on large devices */
@@ -96,9 +85,6 @@ padding-bottom: 40px;
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-   h1 {
-      font-size: 7em;
-   }
 
    h2 {
       font-size: 2em;
@@ -112,11 +98,10 @@ padding-bottom: 40px;
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
    h1 {
-      font-size: 15vw;
+      font-size: 12vw;
    }
-
-   h2 {
-      font-size: 1.4em;
+   p{
+      line-height:25px;
    }
 
    #mc_email_input input {
@@ -126,11 +111,16 @@ padding-bottom: 40px;
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-   h1 {
+ /*  h1 {
       font-size: 15vw;
-   }
+   }*/
 
    h2 {
       font-size: 1.2em;
    }
+   p {
+      font-size: 4vw;
+
+   }
+
 }
