@@ -8,7 +8,7 @@ font-family: Dosis, sans-serif;
 h1 {
    font-size: 9em;
 	letter-spacing: 3px;
-	background: -webkit-linear-gradient(360deg, #414040 20%,#E0E0E0 90%);
+	background: -webkit-linear-gradient(360deg, #414040 10%,#989696,#E0E0E0 95%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
@@ -62,7 +62,7 @@ min-width:200px;
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
    h1 {
-      font-size: 4.9em;
+      font-size: 15vw;
    }
 
    h2 {
@@ -73,7 +73,7 @@ min-width:200px;
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
    h1 {
-      font-size: 4.2em;
+      font-size: 15vw;
    }
 
    h2 {
