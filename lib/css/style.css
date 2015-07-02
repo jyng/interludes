@@ -7,7 +7,7 @@ font-family: Dosis, sans-serif;
 font-weight: 700;	
 }
 h1 {
-   font-size: 6em;
+   font-size: 10vw;
 	letter-spacing: 3px;
 	background: -webkit-linear-gradient(left, #414040 10%,#989696,#E0E0E0 95%);
 	-webkit-background-clip: text;
@@ -20,37 +20,57 @@ h2 {
 	/*font-size: 5vmin;*/
 	/*font-size: 5vmax;*/
 	color:#CBC6C6;
-	font-size: 2.5em;
-   padding-bottom: 50px;
+	font-size: 2em;
+   padding-bottom: 40px;
 }
 p {
 letter-spacing: 0.5px;
 line-height: 30px;
 min-width:200px;
-
-padding-bottom: 40px;
 }
 
-.btn, .btn:active , .btn:focus{
+/*Alexs Suggested Changes*/
+.btn:focus, .btn:active:focus, .btn.active:focus {
+   outline: 0 none;
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
    background-color: darkgrey;
    border-color: lightgrey;
 }
-.btn:hover {
+
+.btn-primary:hover{
    background-color: lightgrey;
    border-color: darkgrey;
 }
+
+/* Selectors copied from bootstrap.css */
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: darkgrey;
+  border-color: lightgrey;
+}
+
 #subscription_message {
    color:red;
    margin-top: 15px;
    margin-bottom:50px;
+
 }
 
 /* Was trying to make the input form larger on large devices */
-/*#mc_email_input input {
-   text-align: center;
-   width: 300px;
+#mc_email_input input {
+   width: 350px;
 }
-*/
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
@@ -58,6 +78,10 @@ padding-bottom: 40px;
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+   #mc_email_input input {
+      width: 300px;
+   }
 
 }
 
@@ -67,12 +91,17 @@ padding-bottom: 40px;
       font-size: 6em;
    
    }
+
    h2 {
       font-size:2.5em;
 
    }
    p {
       min-width:600px;
+   }
+
+   #mc_email_input input {
+      width: 250px;
    }
 }
 
@@ -88,14 +117,19 @@ padding-bottom: 40px;
 
    p {
       line-height:25px;
+      font-size: 12vw;
+   }
+
+   #mc_email_input input {
+      width: 100%;
    }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-   h1 {
+ /*  h1 {
       font-size: 15vw;
-   }
+   }*/
 
    h2 {
       font-size: 8vw;
@@ -104,4 +138,9 @@ padding-bottom: 40px;
       font-size:4vw;
       line-height:23px;
    }
+   p {
+      font-size: 4vw;
+
+   }
+
 }
