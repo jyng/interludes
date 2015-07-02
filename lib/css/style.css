@@ -27,6 +27,7 @@ p {
 letter-spacing: 0.5px;
 line-height: 30px;
 min-width:200px;
+padding-bottom: 40px;
 }
 
 /*Alexs Suggested Changes*/
@@ -117,7 +118,6 @@ min-width:200px;
 
    p {
       line-height:25px;
-      font-size: 12vw;
    }
 
    #mc_email_input input {
