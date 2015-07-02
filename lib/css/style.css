@@ -1,5 +1,5 @@
 body {
-font: 1.7em Merriweather, sans-serif;
+font: 1.65em Merriweather, sans-serif;
 }
 
 h1,h2 {
@@ -7,7 +7,7 @@ font-family: Dosis, sans-serif;
 font-weight: 700;	
 }
 h1 {
-   font-size: 9vw;
+   font-size: 6vw;
 	letter-spacing: 3px;
 	background: -webkit-linear-gradient(left, #414040 10%,#989696,#E0E0E0 95%);
 	-webkit-background-clip: text;
@@ -20,13 +20,14 @@ h2 {
 	/*font-size: 5vmin;*/
 	/*font-size: 5vmax;*/
 	color:#CBC6C6;
-	font-size: 3.5vw;
+	font-size: 3vw;
    padding-bottom: 40px;
 }
 p {
 letter-spacing: 0.5px;
 line-height: 35px;
 padding-bottom: 35px;
+
 }
 
 /*Alexs Suggested Changes*/
@@ -87,7 +88,7 @@ padding-bottom: 35px;
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-   h1 {
+/*   h1 {
       font-size: 6em;
    
    }
@@ -95,7 +96,7 @@ padding-bottom: 35px;
    h2 {
       font-size:2.5em;
 
-   }
+   }*/
    p {
       min-width:600px;
    }
@@ -107,12 +108,12 @@ padding-bottom: 35px;
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-   h2 {
-      font-size: 5vw;
+   h1{
+      font-size: 8vw;
    }
 
    h2 {
-      font-size: 2em;
+      font-size: 4vw;
    }
 
    p {
@@ -127,11 +128,11 @@ padding-bottom: 35px;
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
    h1 {
-      font-size: 12vw;
+      font-size: 13vw;
    }
 
    h2 {
-      font-size: 8vw;
+      font-size: 6.5vw;
    }
    p {
       font-size:4vw;
