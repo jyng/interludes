@@ -30,7 +30,6 @@ padding-bottom: 35px;
 
 }
 
-/*Alexs Suggested Changes*/
 .btn:focus, .btn:active:focus, .btn.active:focus {
    outline: 0 none;
 }
