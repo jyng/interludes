@@ -1,33 +1,61 @@
-body {
-font: 1.65em Merriweather, sans-serif;
+/* Load CooperHewitt Fonts */
+@font-face {
+   font-family: CooperHewitt;
+      src: url('../fonts/CooperHewitt/CooperHewitt-Book.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/CooperHewitt/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/CooperHewitt/CooperHewitt-Book.woff') format('woff'),
+           url('../fonts/CooperHewitt/CooperHewitt-Book.svg#CooperHewitt') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
 }
 
-h1,h2 {
-font-family: Dosis, sans-serif;
-font-weight: 700;	
+@font-face {
+   font-family: CooperHewittMedium;
+      src: url('../fonts/CooperHewitt/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/CooperHewitt/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/CooperHewitt/CooperHewitt-Medium.woff') format('woff'),
+           url('../fonts/CooperHewitt/CooperHewitt-Medium.svg#CooperHewitt') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
 }
+/* End Load Fonts */
+
+
+body {
+   font-family: CooperHewitt, sans-serif;
+   /*font: 1.65em*/
+}
+
 h1 {
-   font-size: 6vw;
-	letter-spacing: 3px;
-	background: -webkit-linear-gradient(left, #414040 10%,#989696,#E0E0E0 95%);
+   font-family: CooperHewitt, sans-serif;
+}
+
+h2 {
+   font-family: CooperHewittMedium, sans-serif;
+}
+
+h1 {
+   /*font-size: 6vw;*/
+   font-size: 104px;
+	letter-spacing: -2.2px;
+	background: -webkit-linear-gradient(left, #3BB1BE 10%,#29C470);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);
-	
+	/*text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);*/
 }
 h2 {
-	font-family: Dosis,sans-serif;
-	/*font-size: 5vmin;*/
-	/*font-size: 5vmax;*/
-	color:#CBC6C6;
-	font-size: 3vw;
-   padding-bottom: 40px;
+	color: #474747;
+	/*font-size: 3vw;*/
+   font-size: 32px;
+   /*padding-bottom: 40px;*/
 }
 p {
-letter-spacing: 0.5px;
-line-height: 35px;
-padding-bottom: 35px;
-
+   font-size: 32px;
+/*   letter-spacing: 0.5px;
+   line-height: 35px;
+   padding-bottom: 35px;*/
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
@@ -35,13 +63,16 @@ padding-bottom: 35px;
 }
 
 .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-   background-color: darkgrey;
-   border-color: lightgrey;
+   color: #474747;
+   background-color: rgba(201,201,201,0.2);
+   border-color: rgba(201,201,201,0.2);
+   font-size: 24px;
 }
 
 .btn-primary:hover{
-   background-color: lightgrey;
-   border-color: darkgrey;
+   color: #FFF;
+   background-color: #474747;
+   border-color: #474747;
 }
 
 /* Selectors copied from bootstrap.css */
@@ -54,21 +85,27 @@ padding-bottom: 35px;
 .btn-primary:active.focus,
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
-  color: #fff;
-  background-color: darkgrey;
-  border-color: lightgrey;
+   color: #FFF;
+   background-color: #474747;
+   border-color: #474747;
 }
 
 #subscription_message {
    color:red;
    margin-top: 15px;
    margin-bottom:50px;
-
 }
 
 /* Was trying to make the input form larger on large devices */
 #mc_email_input input {
+   color: #474747;
    width: 350px;
+   font-size: 24px;
+   height: auto;
+   background-color: rgba(201,201,201,0.2);
+   border-color: rgba(201,201,201,0.2);
+   margin-right: 54px;
+   box-shadow: none;
 }
 
 /* Large desktops and laptops */
