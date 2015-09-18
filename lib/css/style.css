@@ -166,17 +166,17 @@ p {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-   /*h1{
-      font-size: 8vw;
+   h1{
+      font-size: 6em;
    }
 
    h2 {
-      font-size: 4vw;
+      font-size: 2em;
    }
 
    p {
       line-height:25px;
-   }*/
+   }
 
    #mc_email_input input {
       width: 100%;
