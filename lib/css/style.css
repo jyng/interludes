@@ -25,7 +25,7 @@
 hr {
    width: 116px;
    text-align: left;
-   margin-left: 0;
+   margin: 0;
    height: 5px;
    border: none;
    background-color: #dadada;
@@ -46,8 +46,7 @@ h2 {
 
 h1 {
    /*font-size: 6vw;*/
-   font-size: 104px;
-	letter-spacing: -2.2px;
+   font-size:6.854em;
 	background: -webkit-linear-gradient(left, #3bb1be, #29c470, #09093b, #b134bf, #ec008c, #f26922);
    background-size: 600% 600%;
 	-webkit-background-clip: text;
@@ -68,13 +67,13 @@ h1 {
 h2 {
 	color: #474747;
 	/*font-size: 3vw;*/
-   font-size: 32px;
+   font-size: 2.827em;
    /*padding-bottom: 40px;*/
 }
 p {
-   font-size: 32px;
+   font-size: 1.438em;
+   max-width:624px;
 /*   letter-spacing: 0.5px;
-   line-height: 35px;
    padding-bottom: 35px;*/
 }
 
@@ -127,7 +126,7 @@ p {
    margin-right: 54px;
    box-shadow: none;
 }
-
+/****Responsive****/
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
@@ -146,7 +145,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 /*   h1 {
       font-size: 6em;
-   
+
    }
 
    h2 {
@@ -164,7 +163,7 @@ p {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-   h1{
+   /*h1{
       font-size: 8vw;
    }
 
@@ -174,7 +173,7 @@ p {
 
    p {
       line-height:25px;
-   }
+   }*/
 
    #mc_email_input input {
       width: 100%;
