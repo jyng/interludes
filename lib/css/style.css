@@ -76,6 +76,9 @@ p {
 /*   letter-spacing: 0.5px;
    padding-bottom: 35px;*/
 }
+.btn {
+  padding: 8px 16px;
+}
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
    outline: 0 none;
@@ -83,7 +86,7 @@ p {
 
 .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
    color: #474747;
-   background-color: rgba(201,201,201,0.2);
+   background-color:#e9e9e9;
    border-color: rgba(201,201,201,0.2);
    font-size: 24px;
 }
@@ -121,7 +124,7 @@ p {
    width: 350px;
    font-size: 24px;
    height: auto;
-   background-color: rgba(201,201,201,0.2);
+   background-color:#e9e9e9;
    border-color: rgba(201,201,201,0.2);
    margin-right: 54px;
    box-shadow: none;
