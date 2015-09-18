@@ -11,6 +11,17 @@
 }
 
 @font-face {
+   font-family: CooperHewittLight;
+      src: url('../fonts/CooperHewitt/CooperHewitt-Light.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/CooperHewitt/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/CooperHewitt/CooperHewitt-Light.woff') format('woff'),
+           url('../fonts/CooperHewitt/CooperHewitt-Light.svg#CooperHewitt') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
    font-family: CooperHewittMedium;
       src: url('../fonts/CooperHewitt/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
       src: url('../fonts/CooperHewitt/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
@@ -37,21 +48,22 @@ body {
 }
 
 h1 {
-   font-family: CooperHewitt, sans-serif;
+   font-family: CooperHewittLight, sans-serif;
 }
 
 h2 {
-   font-family: CooperHewittMedium, sans-serif;
+   font-family: CooperHewitt, sans-serif;
 }
 
 h1 {
    /*font-size: 6vw;*/
    font-size:6.854em;
-	background: -webkit-linear-gradient(left, #3bb1be, #29c470, #09093b, #b134bf, #ec008c, #f26922);
+   letter-spacing:1rem;
+	background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
    background-size: 600% 600%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-   -webkit-animation: AnimationName 16s ease infinite;
+   -webkit-animation: AnimationName 30s ease-in-out infinite;
 	/*text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);*/
 
 }
@@ -71,7 +83,8 @@ h2 {
    /*padding-bottom: 40px;*/
 }
 p {
-   font-size: 1.438em;
+   font-size: 1.375em;
+   line-height:32px;
    max-width:624px;
 /*   letter-spacing: 0.5px;
    padding-bottom: 35px;*/
