@@ -58,12 +58,12 @@ h2 {
 h1 {
    /*font-size: 6vw;*/
    font-size:6.854em;
-   letter-spacing:1rem;
+   letter-spacing:4px;
 	background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
    background-size: 600% 600%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-   -webkit-animation: AnimationName 30s ease-in-out infinite;
+   -webkit-animation: AnimationName 20s ease-in-out infinite;
 	/*text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.2);*/
 
 }
@@ -151,67 +151,47 @@ p {
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-   #mc_email_input input {
+   /*#mc_email_input input {
       width: 300px;
-   }
+   }*/
 
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-/*   h1 {
-      font-size: 6em;
 
-   }
-
-   h2 {
-      font-size:2.5em;
-
-   }*/
-   p {
-      min-width:600px;
-   }
-
-   #mc_email_input input {
-      width: 250px;
-   }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
    h1{
-      font-size: 6em;
+      font-size: 4.236em;
    }
 
    h2 {
-      font-size: 2em;
-   }
-
-   p {
-      line-height:25px;
-   }
-
-   #mc_email_input input {
-      width: 100%;
+      font-size: 2.618em;
    }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
    h1 {
-      font-size: 13vw;
+      font-size: 3em;
    }
 
    h2 {
-      font-size: 6.5vw;
+      font-size: 1.618em;
    }
    p {
-      font-size:4vw;
-      line-height:23px;
+     font-size: 1em;
+     line-height:22px;
    }
-   p {
-      font-size: 4vw;
+   #mc_email_input input {
+     width: 90%;
 
    }
+   .btn {
 
+     font-size: 1em;
+   }
 }
