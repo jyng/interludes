@@ -175,23 +175,16 @@ p {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-   h1 {
-      font-size: 3em;
-   }
+h1{
+  font-size: 2.618em;
 
-   h2 {
-      font-size: 1.618em;
-   }
-   p {
-     font-size: 1em;
-     line-height:22px;
-   }
+}
    #mc_email_input input {
      width: 90%;
 
    }
    .btn {
 
-     font-size: 1em;
+     font-size: 1.375em;
    }
 }
