@@ -1,23 +1,17 @@
-.content{
-   /*display: flex;*/
-   /*flex-direction: column;*/
-   /*align-items: center;*/
-   /*justify-content: center;*/
-   /*width: 600px;*/
+/*.content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 600px;
    max-width: 600px;
-}
-
-.content_story{
-   /*max-width: 600px;*/
-}
-
-.volume_title {
-   /*color: #474747;*/
-   /*font-size: 2.827em;*/
-   /*padding-bottom: 40px;*/
-}
+} STYLES FOR BOOTSTRAP*/
 
 li {
    display: inline-block;
    margin-right: 18px;
+}
+
+.next_volume {
+   opacity: 0.2;
 }
