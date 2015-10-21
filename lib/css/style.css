@@ -47,18 +47,15 @@ body {
    /*font: 1.65em*/
 }
 
-h1 {
-   font-family: CooperHewittLight, sans-serif;
-}
-
 h2 {
    font-family: CooperHewitt, sans-serif;
 }
 
 h1 {
    /*font-size: 6vw;*/
-   font-size:6.854em;
-   letter-spacing:4px;
+  font-family: CooperHewittLight, sans-serif;
+  font-size:6.854em;
+  letter-spacing:4px;
 	background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
    background-size: 600% 600%;
 	-webkit-background-clip: text;
@@ -187,4 +184,14 @@ h1{
 
      font-size: 1.375em;
    }
+}
+
+/* Reset UL styles */
+ul{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
 }
