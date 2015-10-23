@@ -1,0 +1,70 @@
+/* Load CooperHewitt Fonts */
+@font-face {
+   font-family: CooperHewitt;
+      src: url('../fonts/CooperHewitt/CooperHewitt-Book.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/CooperHewitt/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/CooperHewitt/CooperHewitt-Book.woff') format('woff'),
+           url('../fonts/CooperHewitt/CooperHewitt-Book.svg#CooperHewitt') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: CooperHewittLight;
+      src: url('../fonts/CooperHewitt/CooperHewitt-Light.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/CooperHewitt/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/CooperHewitt/CooperHewitt-Light.woff') format('woff'),
+           url('../fonts/CooperHewitt/CooperHewitt-Light.svg#CooperHewitt') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: CooperHewittMedium;
+      src: url('../fonts/CooperHewitt/CooperHewitt-Medium.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/CooperHewitt/CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/CooperHewitt/CooperHewitt-Medium.woff') format('woff'),
+           url('../fonts/CooperHewitt/CooperHewitt-Medium.svg#CooperHewitt') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
+}
+/* End Load Fonts */
+
+hr {
+   width: 116px;
+   text-align: left;
+   margin: 0;
+   height: 5px;
+   border: none;
+   background-color: #dadada;
+}
+
+body {
+   font-family: CooperHewitt, sans-serif;
+   /*font: 1.65em*/
+}
+
+h2 {
+   font-family: CooperHewitt, sans-serif;
+}
+
+h1 {
+   /*font-size: 6vw;*/
+  font-family: CooperHewittLight, sans-serif;
+  letter-spacing:4px;
+  background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
+   background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   -webkit-animation: AnimationName 20s ease-in-out infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+}
