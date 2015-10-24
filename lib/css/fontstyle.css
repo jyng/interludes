@@ -56,7 +56,7 @@ h1 {
   font-family: CooperHewittLight, sans-serif;
   letter-spacing:4px;
   background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
-   background-size: 600% 600%;
+  background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    -webkit-animation: AnimationName 20s ease-in-out infinite;
