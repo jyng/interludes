@@ -31,6 +31,27 @@
    font-weight: normal;
    font-style: normal;
 }
+@font-face {
+   font-family:SourceSansProLight;
+      src: url('../fonts/SourceSansPro/SourceSansPro-Light.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/SourceSansPro/SourceSansPro-Light?#iefix') format('embedded-opentype'),
+           url('../fonts/SourceSansPro/SourceSansPro-Light.otf.woff') format('woff'),
+           url('../fonts/SourceSansPro/SourceSansPro-Light.ttf') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family:SourceSansPro;
+      src: url('../fonts/SourceSansPro/SourceSansPro-Regular.eot'); /* IE9 Compat Modes */
+      src: url('../fonts/SourceSansPro/SourceSansPro-Regular?#iefix') format('embedded-opentype'),
+           url('../fonts/SourceSansPro/SourceSansPro-Regular.otf.woff') format('woff'),
+           url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('svg');
+      /* IE6-IE8, Modern Browsers, Legacy IOS */
+   font-weight: normal;
+   font-style: normal;
+}
 /* End Load Fonts */
 
 hr {
@@ -43,14 +64,13 @@ hr {
 }
 
 body {
-   font-family: CooperHewitt, sans-serif;
+   font-family: SourceSansProLight, sans-serif;
    /*font: 1.65em*/
 }
 
-h2 {
-   font-family: CooperHewitt, sans-serif;
+measure {
+  max-width:35rem;
 }
-
 h1 {
    /*font-size: 6vw;*/
   font-family: CooperHewittLight, sans-serif;
@@ -67,4 +87,8 @@ h1 {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 
+}
+
+h2 {
+   font-family: CooperHewitt, sans-serif;
 }

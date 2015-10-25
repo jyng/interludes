@@ -1,0 +1,5 @@
+/* sidenav.css */
+
+@import "../mmenu/src/core/css/_inc/variables";
+
+@include mm_sizing_right("", 0.8, 175px, 300px );
