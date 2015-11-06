@@ -1,0 +1,72 @@
+Alex’s Github Notes
+
+When first accessing a repo
+
+git clone <projectaddress>
+
+Pushing code
+
+git push <remote> <branch>
+example: git push origin development
+
+List All Branches
+git branch -a
+
+git fetch
+Updates all my pointers?
+
+git commit -m
+
+git checkout <branch //switches my current branch
+
+git merge <otherbranch> //merges OTHER branch with your CURRENT branch
+
+git reset --hard  ///to reset to last commit
+
+
+WORKFLOW
+========
+These are all examples and basic workflows, they can be modified to fit certain needs.
+
+——————————————
+To push a commit
+————————————
+git status      //review your changes and file statuses
+git add -A .    //-A . command adds all files to the staging area. If this is not what you want, individually add files to the staging area.
+git commit -m “MESSAGEHERE” //Commit changes with a useful message. example: git commit -m “Added file.css, modified file2.css, feature x still buggy”
+git push origin <branch>    //push the specified branch that contains local commits to the server repo
+
+————————————————
+for merging development into master
+———————————————————
+(on branch development)$ git merge master
+(resolve any merge conflicts if there are any)
+git checkout master
+git merge development (there won't be any conflicts now)
+
+git checkout master    
+git pull origin master //pull latest code master (resolve merge conflicts if there are any)
+git merge development  //merge development branch into master (happens in local repo, resolve merge conflicts if there are any)
+git push origin master //push the merge to the server repo
+
+———————————
+Branching off into a new feature branch
+—————
+
+git checkout development          //checkout the most up to date branch
+git pull origin development       //update the branch with the latest changes
+git checkout -b <fb-newfeature>   //create a new branch which branches off the development branch
+git push origin <fb-newfeature>   //push the branch to the server repo
+
+——————————————
+To grab the latest source code
+———————————
+git checkout development
+git pull
+
+
+How to rename a branch locally and remotely
+===========================================
+git branch -m old_branch new_branch         # Rename branch locally    
+git push origin :old_branch                 # Delete the old branch    
+git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
