@@ -1,5 +1,9 @@
 /* sidenav.css */
 
-@import "../mmenu/src/core/css/_inc/variables";
+$mm_menuWidth: .7;
+$mm_menuMaxWidth: 300px;
 
-@include mm_sizing_right("", 0.8, 175px, 300px );
+// @import "../mmenu/src/core/css/_inc/_variables";
+@import "../mmenu/src/core/css/jquery.mmenu.all.scss";
+
+// @include mm_sizing_right("", 0.5, 175px, 300px );
