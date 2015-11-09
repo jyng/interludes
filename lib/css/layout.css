@@ -1,3 +1,8 @@
 header svg {
    margin-top: .75rem;
 }
+
+.mm-listview > li > a,
+.mm-listview > li > span {
+   padding-right: 50px;
+}
