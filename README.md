@@ -10,7 +10,9 @@
 ### Branches
 - gh-pages: Stable, Live Code
 - development: in progress, possibly unstable code (Use this to test before pushing to release/live branch)
+- fb-[FeatureBranchName]: Feature Branch for a specific feature
 
 ## References
 
 - [Designs](https://interludes.wake.io/)
+- [Git Workflow Notes]()

@@ -1,5 +1,11 @@
 /* sidenav.css */
 
-@import "../mmenu/src/core/css/_inc/variables";
+$mm_backgroundColor: #FFFFFF;
+$mm_menuWidth: .7;
+$mm_menuMinWidth: 100px;
+$mm_menuMaxWidth: 250px;
+$mm_panelShadow: 0 0 5px rgba(#000, 0.5);
 
-@include mm_sizing_right("", 0.8, 175px, 300px );
+// @import "../mmenu/src/core/css/_inc/_variables";
+@import "../mmenu/src/core/css/jquery.mmenu.all.scss";
+@import "../mmenu/src/3rdparty/extensions/css/jquery.mmenu.panelshadow.scss"
