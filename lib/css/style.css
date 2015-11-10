@@ -139,6 +139,7 @@ p {
    margin-right: 54px;
    box-shadow: none;
 }
+
 /****Responsive****/
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
