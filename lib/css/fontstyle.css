@@ -54,6 +54,11 @@
 }
 /* End Load Fonts */
 /* Font Styles */
+
+*
+{
+  margin:0;
+}
 hr {
    width: 116px;
    text-align: left;
@@ -98,9 +103,14 @@ h2 {
 /*Components*/
 .box
 {
-  width:300px;
-  height:200px;
-  border: 2px solid gray;
-  border-radius: 4px;
+  width: 250px;
+  height: 200px;
+
+  border: 2px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top left, #b134bf,#E1CC90);
+  -webkit-border-image: -webkit-linear-gradient(top left,#b134bf,#E1CC90);
+  border-image: linear-gradient(to top left,#b134bf,#E1CC90);
+  border-image-slice: 1;
+  border-radius: 30px;
 
 }
