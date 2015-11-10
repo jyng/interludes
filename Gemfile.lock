@@ -74,13 +74,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  github-pages
-  jekyll-redirect-from
-=======
   jekyll
   kramdown
   puma
   rack-jekyll
   rake
->>>>>>> 97ae4cc99a203306bd2f6c5d24eefa8e0834d717
