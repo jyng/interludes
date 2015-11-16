@@ -25,6 +25,12 @@ li a {
 .mm-listview > li > a, .mm-listview > li > span {
    padding: 10px 40px 0 0;
 }
+
+.icon_volume {
+   position: fixed;
+   top: 30px;
+   right: 30px;
+}
 /* ENABLE BODY SCROLLING */
 /*html.mm-blocking body {
    overflow: auto;
