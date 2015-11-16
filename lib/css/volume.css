@@ -25,7 +25,7 @@ li a {
 .mm-listview > li > a, .mm-listview > li > span {
    padding: 10px 40px 0 0;
 }
-
-html.mm-blocking body {
+/* ENABLE BODY SCROLLING */
+/*html.mm-blocking body {
    overflow: auto;
-}
+}*/
