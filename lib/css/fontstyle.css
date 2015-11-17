@@ -43,7 +43,7 @@
 }
 
 @font-face {
-   font-family:SourceSansPro;
+   font-family:SourceSansProRegular;
       src: url('../fonts/SourceSansPro/SourceSansPro-Regular.eot'); /* IE9 Compat Modes */
       src: url('../fonts/SourceSansPro/SourceSansPro-Regular?#iefix') format('embedded-opentype'),
            url('../fonts/SourceSansPro/SourceSansPro-Regular.otf.woff') format('woff'),
@@ -64,7 +64,7 @@ hr {
 }
 
 body {
-   font-family: SourceSansProLight, sans-serif;
+   font-family: SourceSansProRegular, sans-serif;
    /*font: 1.65em*/
 }
 
