@@ -68,9 +68,6 @@ body {
    /*font: 1.65em*/
 }
 
-measure {
-  max-width:35rem;
-}
 h1 {
    /*font-size: 6vw;*/
   font-family: CooperHewittLight, sans-serif;
