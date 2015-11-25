@@ -4,13 +4,12 @@
   position: relative;
   z-index: 1;
   /*color: #fff;*/
-  /*box-sizing: border-box;*/
 }
 
 .followMeBar.fixed {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: inherit; /* original value 100% the width is a bit buggy, turn on the background: #999 to see it*/
   box-sizing: border-box;
   z-index: 0;
 }
