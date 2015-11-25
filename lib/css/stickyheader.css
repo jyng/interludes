@@ -1,16 +1,13 @@
 .followMeBar {
-  background: #999;
-  /*padding: 10px 20px;*/
+  background: #FFF;
   position: relative;
   z-index: 1;
-  /*color: #fff;*/
 }
 
 .followMeBar.fixed {
   position: fixed;
   top: 0;
-  width: inherit; /* original value 100% the width is a bit buggy, turn on the background: #999 to see it*/
-  box-sizing: border-box;
+  width: inherit; /* Hard Set width of parent in js, inherit it's value. */
   z-index: 0;
 }
 
