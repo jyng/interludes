@@ -30,6 +30,7 @@ li a {
    position: fixed;
    top: 30px;
    right: 30px;
+   z-index: 2;
 }
 /* ENABLE BODY SCROLLING */
 /*html.mm-blocking body {
