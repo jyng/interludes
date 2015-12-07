@@ -1,11 +1,3 @@
-/*.content{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   width: 600px;
-   max-width: 600px;
-} STYLES FOR BOOTSTRAP*/
 
 li {
    display: inline-block;
@@ -21,3 +13,17 @@ li a {
    color: #000;
    opacity: 0.2;
 }
+
+.mm-listview > li > a, .mm-listview > li > span {
+   padding: 10px 40px 0 0;
+}
+
+.icon_volume {
+   position: fixed;
+   top: 30px;
+   right: 30px;
+}
+/* ENABLE BODY SCROLLING */
+/*html.mm-blocking body {
+   overflow: auto;
+}*/

@@ -1,8 +1,5 @@
-header svg {
-   margin-top: .75rem;
-}
 
-.mm-listview > li > a,
-.mm-listview > li > span {
-   padding-right: 50px;
+/* body with height:auto is temporary fix for mmenu jumping to the top when sidenav is fired*/
+body {
+   height: auto;
 }
