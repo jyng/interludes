@@ -67,21 +67,24 @@ body {
    font-family: SourceSansProLight, sans-serif;
 }
 
-h1 {
+h1{
    /*font-size: 6vw;*/
   font-family: CooperHewittLight, sans-serif;
   letter-spacing:4px;
-  background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
-  background-size: 600% 600%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-   -webkit-animation: AnimationName 20s ease-in-out infinite;
+}
+
+.interlude{
+background: -webkit-linear-gradient(left, #b134bf,#3bb1be,#E1CC90, #FF945C, #EC008C);
+background-size: 600% 600%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ -webkit-animation: AnimationName 20s ease-in-out infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 
 }
 
